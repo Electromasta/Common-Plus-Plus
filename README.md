@@ -19,5 +19,5 @@ Copy src/common headers to your external or vendor library
 - Bitmask Type
 
 ## Dependencies
-Relies on vcpkg to install: spdlog, toml++, reflect-cpp, glm, and fastnoiselite
+Relies on vcpkg to install: spdlog, toml++, reflect-cpp, glm
 
