@@ -40,9 +40,7 @@
 # debug information files
 *.dwo
 
-# vscode
-.vscode
-!.vscode/c_cpp_properties.json
+
 
 # Install & Build Folders
 vcpkg_installed
