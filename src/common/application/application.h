@@ -10,7 +10,7 @@ namespace Common  {
     class Application   {
         public:
             Application(Specification specification)    : specification(std::move(specification)), running(true) {}
-            ~Application();
+            ~Application() {};
 
             void run() {
                 setup();
