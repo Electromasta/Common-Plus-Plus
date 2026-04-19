@@ -1,0 +1,10 @@
+{
+    "name": "commonplusplus",
+    "version": "1.0.0",
+    "dependencies": [
+        { "name": "spdlog" },
+        { "name": "glm" },
+        { "name": "tomlplusplus" },
+        { "name": "reflectcpp", "features": ["toml"] }
+    ]
+}

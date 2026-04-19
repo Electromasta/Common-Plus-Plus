@@ -39,3 +39,9 @@
 
 # debug information files
 *.dwo
+
+# Install & Build Folders
+vcpkg_installed
+_external
+_bld
+_bin
