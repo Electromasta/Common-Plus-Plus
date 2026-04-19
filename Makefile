@@ -1,4 +1,4 @@
-APP = commonplusplus
+APP = Common
 
 SRC = src
 BLD = _bld

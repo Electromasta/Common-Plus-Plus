@@ -3,6 +3,9 @@ Commonly used Std Extensions Library for C++
 
 I've found the std library is lacking features or is generally slow, so this attempts to consolidate common solutions I use in one place.
 
+## To Use
+Copy src/common headers to your external or vendor library
+
 ## Features
 - Application Looper
 - Bidirectional Map
@@ -17,3 +20,4 @@ I've found the std library is lacking features or is generally slow, so this att
 
 ## Dependencies
 Relies on vcpkg to install: spdlog, toml++, reflect-cpp, glm, and fastnoiselite
+

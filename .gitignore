@@ -43,5 +43,6 @@
 # Install & Build Folders
 vcpkg_installed
 _external
+!src/_external
 _bld
 _bin
