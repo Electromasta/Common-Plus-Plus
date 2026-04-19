@@ -46,7 +46,7 @@ $(BLD)/%.o: $(SRC)/%.cpp
 
 install:
 	@echo "Installing, first time might take a while"
-	@vcpkg install > /dev/null 2>&1
+	@vcpkg install
 	@mkdir -p $(EXTERN)/$(INC)/ $(EXTERN)/$(LIB)/
 	@mv -f $(VCPKG_PATH)/include/* $(EXTERN)/$(INC)/ || true
 	@mv -f $(VCPKG_PATH)/lib/* $(EXTERN)/$(LIB)/ || true
